@@ -4,6 +4,13 @@ import Logica.Interfaces.IFuego;
 import Logica.Personaje;
 
 public class MaestroFuego extends Personaje implements IFuego {
+
+    // constructor
+    public MaestroFuego() {
+    }
+
+
+    // Implementando metodos abstractos
     @Override
     protected void habilidadAtaque() {
         System.out.println("Maestro fuego, ataque lanza llamas");

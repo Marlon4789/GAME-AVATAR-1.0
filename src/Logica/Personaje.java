@@ -5,9 +5,8 @@ public abstract class Personaje {
     protected int id;
     protected String nombre;
     protected String categoria;
-    protected String poder;
-    protected String ataque;
-    protected String puntaje;
+    protected int ataque;
+    protected int puntaje;
 
     // metodos
     protected abstract void habilidadAtaque();

@@ -4,6 +4,12 @@ import Logica.Interfaces.IAgua;
 import Logica.Personaje;
 
 public class MaestroAgua extends Personaje implements IAgua {
+
+    // Constructor
+    public MaestroAgua() {
+    }
+
+    // Implementando metodos abstractos
     @Override
     protected void habilidadAtaque() {
         System.out.println("Maestro agua, ataque proyectil de hielo");

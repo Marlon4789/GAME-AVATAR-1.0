@@ -4,6 +4,12 @@ import Logica.Interfaces.ITierra;
 import Logica.Personaje;
 
 public class MaestroTierra extends Personaje implements ITierra {
+
+    // constructor
+    public MaestroTierra() {
+    }
+
+    // Implementando metodos abstractos  
     @Override
     protected void habilidadAtaque() {
         System.out.println("Maestro tierra, ataque rafaga de rocas");

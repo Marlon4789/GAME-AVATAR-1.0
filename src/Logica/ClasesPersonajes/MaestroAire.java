@@ -4,6 +4,12 @@ import Logica.Interfaces.IAire;
 import Logica.Personaje;
 
 public class MaestroAire extends Personaje implements IAire {
+
+    // constructor
+    public MaestroAire() {
+    }
+
+    // Implementando metodos abstractos
     @Override
     protected void habilidadAtaque() {
         System.out.println("Maestro aire, ataque rafaga de viento");
