@@ -1,5 +1,7 @@
 package Logica2.InterfacesPersonajes;
 
 public interface IFuego {
-    void ataqueEspecialFuego();
+    public void ataqueEspecialFuego();
+    public void ataque();
+    public void defensa();
 }

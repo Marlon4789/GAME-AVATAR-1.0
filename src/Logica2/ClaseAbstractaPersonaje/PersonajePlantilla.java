@@ -5,7 +5,4 @@ public abstract class PersonajePlantilla {
     protected String nombre;
     protected String categoria;
     protected int puntos;
-
-    protected abstract void ataque();
-    protected abstract void defensa();
 }

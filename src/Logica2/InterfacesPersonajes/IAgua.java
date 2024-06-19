@@ -1,5 +1,7 @@
 package Logica2.InterfacesPersonajes;
 
 public interface IAgua {
-    void ataqueEspecialAgua();
+    public void ataqueEspecialAgua();
+    public void ataque();
+    public void defensa();
 }

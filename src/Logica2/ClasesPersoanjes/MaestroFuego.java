@@ -13,18 +13,31 @@ public class MaestroFuego extends PersonajePlantilla implements IFuego {
         this.puntos = puntos;
     }
 
-    @Override
-    protected void ataque() {
-        System.out.println("Lanza llamas");
+    // getters and setters
+    public String getNomnre(){
+        return nombre;
     }
 
-    @Override
-    protected void defensa() {
-        System.out.println("Escudo de hierro");
+    public String getCategoria(){
+        return categoria;
+    }
+
+    public int getPuntos(){
+        return puntos;
     }
 
     @Override
     public void ataqueEspecialFuego() {
         System.out.println("Super rayo");
+    }
+
+    @Override
+    public void ataque() {
+        System.out.println("Lanza llamas");
+    }
+
+    @Override
+    public void defensa() {
+        System.out.println("Escudo de hierro");
     }
 }
